@@ -1,8 +1,5 @@
 html,
 body {
-  width: 100%;
-  height: 100%;
-  overflow-x: hidden;
   background: linear-gradient(SlateBlue, RoyalBlue);
 }
 h1 {
@@ -49,6 +46,66 @@ form {
     background-position: center;     
     background-size: cover;
 }
+.banner3{
+    position: relative;
+    height: 210px;     
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("img/banner2.jpeg"); 
+    background-position: center;     
+    background-size: cover;
+}
+.banner4{
+    position: relative;
+    height: 210px;     
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("img/banner2.jpeg"); 
+    background-position: center;     
+    background-size: cover;
+}
+.banner5{
+    position: relative;
+    height: 210px;     
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("img/banner2.jpeg"); 
+    background-position: center;     
+    background-size: cover;
+}
+.banner6{
+    position: relative;
+    height: 210px;     
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("img/banner2.jpeg"); 
+    background-position: center;     
+    background-size: cover;
+}
+.banner7{
+    position: relative;
+    height: 210px;     
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("img/banner2.jpeg"); 
+    background-position: center;     
+    background-size: cover;
+}
 .banner1::after {
     content: "";
     background-color: rgba(36, 0, 30, 0.5); 
@@ -64,6 +121,34 @@ form {
     height: 100%;
 }
 .banner3::after {
+    content: "";
+    background-color: rgba(36, 0, 30, 0.5); 
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.banner4::after {
+    content: "";
+    background-color: rgba(36, 0, 30, 0.5); 
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.banner5::after {
+    content: "";
+    background-color: rgba(36, 0, 30, 0.5); 
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.banner6::after {
+    content: "";
+    background-color: rgba(36, 0, 30, 0.5); 
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.banner7::after {
     content: "";
     background-color: rgba(36, 0, 30, 0.5); 
     position: absolute;
