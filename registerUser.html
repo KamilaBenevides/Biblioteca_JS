@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cadastro de Usuário</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css" media="screen" />
+    <script src="https://www.gstatic.com/firebasejs/6.4.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.4.0/firebase-firestore.js"></script>
+</head>
+<body>
+    <div class="testbox">
+        <form action="/">
+            <div class="banner1">
+                <h1></h1>
+            </div>
+            <div class="item">
+                <p>Nome</p>
+                <input id ="nome" type="text" name="name"/>
+            </div>
+            <div class="item">
+                <p>Instituição</p>
+                <input  id ="instutuicao" type="text" name="name"/>
+            </div>
+            <div class="item">
+                <p>Número da Matrícula</p>
+                <input  id ="matricula" type="text" name="name"/>
+            </div>
+            <div class="item">
+                <p>CPF</p>
+                <input  id ="cpf" type="text" name="name"/>
+            </div>
+            <div class="btn-block">
+                <button id="saveB" type="submit">Enviar</button>
+            </div>
+        </form>
+    </div>
+    <script src="js/submitUser.js"></script>
+</body>
+</html>
